@@ -1,6 +1,8 @@
-# DevSecOps notes
+# Infosec notes
 
 Information security and DevSec notes, for study for the CompTIA Security+ exam.
+
+This is mostly for my own study purposes, but hope it's useful for you.
 
 ## Sections
 
