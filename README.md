@@ -4,6 +4,7 @@ Information security and DevSec notes, for study for the CompTIA Security+ exam.
 
 ## Sections
 
+- [Port numbers](Port%20numbers.md)
 - [Services](Services.md)
 - [SSL](SSL.md)
 - [VPNs](VPNs.md)
