@@ -1,3 +1,9 @@
 # VSCode
 *.code-project
 *.code-workspace
+
+# Obsidian
+.obsidian/*
+
+# Mac stuff
+**/.DS_Store
