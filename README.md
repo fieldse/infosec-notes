@@ -7,7 +7,7 @@ This is mostly for my own study purposes, but hope it's useful for you.
 ## Sections
 
 - [Forensics](Forensics.md)
-- [Networking](Networking.md)
+- [Network Types + Devices](Network%20Types%20+%20Devices.md)
 - [Port numbers](Port%20numbers.md)
 - [System services](Services.md)
 - [Security Frameworks](Security%20Frameworks.md)
