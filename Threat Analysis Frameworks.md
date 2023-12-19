@@ -2,7 +2,7 @@
 Different ways of analyzing, categorizing, and theorizing about cyberattacks
 
 ### Cyber Kill Chain
-- Developed by Lockheed Martin
+- Developed by [Lockheed Martin](Organizations.md#Lockheed%20Martin)
 - Breaks attacks into seven steps:
 	1. Reconnaissance
 	2. Weaponization
@@ -13,7 +13,7 @@ Different ways of analyzing, categorizing, and theorizing about cyberattacks
 	7. Actions on Objectives
 
 ### MITRE ATT&CK framework
-- Developed by MITRE, a non-profit organization
+- Developed by [MITRE](Organizations.md#MITRE), a non-profit organization
 	- Also maintains CVE system and CWE (Common Weakness Enumeration) project
 - Adversarial Tactics, Techniques, and Common Knowledge
 - matrix of tactics and techniques, not an ordered set of steps
