@@ -21,6 +21,13 @@ This is mostly for my own study purposes, but hope it's useful for you.
 - [Threat Analysis Frameworks](Threat%20Analysis%20Frameworks.md)
 - [VPNs](VPNs.md)
 
-## Credits
 
-Most of this information comes straight from the highly recommendable [CompTIA Security+ study course](https://www.udemy.com/course/securityplus/) at Udemy by DionTraining.com
+## Resources
+
+#### Online courses
+- CompTIA Security+ Study guide (Udemy) - https://www.udemy.com/course/securityplus/
+- Practice tests - https://www.udemy.com/course/security-601-exams/
+- DionTraining - excellent online video courses - https://www.diontraining.com/udemy
+
+#### E-books
+- CompTIA Security+ Get Certified Get Ahead: SY0-601 Study Guide - Darril Gibson - https://www.amazon.com/CompTIA-Security-Get-Certified-Ahead/dp/B096D1LGSK
