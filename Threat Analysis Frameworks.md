@@ -1,4 +1,3 @@
-
 Different ways of analyzing, categorizing, and theorizing about cyberattacks
 
 ### Cyber Kill Chain
