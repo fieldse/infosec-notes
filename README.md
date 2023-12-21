@@ -6,6 +6,7 @@ This is mostly for my own study purposes, but hope it's useful for you.
 
 ## Sections
 
+- [Cryptography](Cryptography.md)
 - [Data Ownership and Roles](Data%20Ownership%20and%20Roles.md)
 - [Forensics](Forensics.md)
 - [Networks and Devices](Networks%20and%20Devices.md)
