@@ -103,6 +103,10 @@ Firewall types:
 	- advanced firewall
 	- peforms deep-packet inspection
 
+### Network taps 
+- inline device that allows a copy of network traffic to be captured for analysis
+- considered passive monitoring
+
 ### Unified Threat Management
 - UTM
 - combines multiple security functions in one:

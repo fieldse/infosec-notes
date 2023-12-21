@@ -18,7 +18,6 @@ This is mostly for my own study purposes, but hope it's useful for you.
 - [Security Frameworks](Security%20Frameworks.md)
 - [Policies and procedures](Policies%20and%20procedures.md)
 - [SSL](SSL.md)
-- [Terminology](Terminology.md)
 - [Threat Analysis Frameworks](Threat%20Analysis%20Frameworks.md)
 - [VPNs](VPNs.md)
 
