@@ -71,4 +71,4 @@ Categories of policies:
 - Out of band communication
 - Backup communication plans
 - Up-to-date contact lists
-[[Forensic procedures]]
+[[Forensics]]
