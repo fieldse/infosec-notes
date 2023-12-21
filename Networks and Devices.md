@@ -34,8 +34,13 @@ tags: #DNS
 
 
 ### DNSSEC
-- DNS Security
-- prevents DNS poisoning
+- DNSSEC (DNS Security) - enhanced security methods for DNS records, prevents DNS poisoning
+- adds cryptographic signatures to existing DNS records
+- digital signatures are stored in DNS name servers alongside common record types
+- Example fields:
+	- **RRSIG** - Contains a cryptographic signature
+	- **DNSKEY** - Contains a public signing key
+	- **DS** - Contains the hash of a DNSKEY record
 
 ## Gateways
 
@@ -70,7 +75,9 @@ tags: #proxy #router #load-balancing
 - lives in screened subnet
 - can perform load-balancing 
 
-## Network Security
+- DNSSEC (DNS Security)
+## Network security
+- digital signatures are stored in DNS name servers alongside common record types
 tags: #security #firewall
 
 ### Physical Isolation
