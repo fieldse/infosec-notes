@@ -14,7 +14,25 @@
 	- SHA256
 
 ## Cryptographic cyphers
-- TODO...
+#encryption #cryptography 
+
+### RC4 
+- #symmetric encryption cypher
+-  *TODO* 
+
+### PGP 
+- "Pretty Good Privacy"
+-  provides cryptographic privacy and authentication for data communication
+- used to sign, encrypt, and decrypt texts, emails, files, directories and disk partition
+- increases security of email communication 
+
+### AES 
+- #symmetric encryption cypher
+-  *TODO* 
+
+### 3DES 
+- #symmetric encryption cypher
+-  *TODO* 
 
 ## Symmetric encryption
 #symmetric-encryption #encryption #cryptography 
