@@ -49,7 +49,7 @@
 
 ### ARP
 - Address Resolution Protocol
-- part of layer 2 of the OSI model
+- part of layer 2 of the [OSI Model](OSI%20Model.md)
 - resolves IPV4 addresses to MAC addresses
 
 
