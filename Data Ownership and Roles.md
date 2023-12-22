@@ -1,3 +1,8 @@
+## Data Governance
+- the processes an organization uses to manage, process, and protect data
+
+
+## Access Control methods
 ### RBAC
 - Role-Based Access Control
 - (could be confused with Rule-based access control)

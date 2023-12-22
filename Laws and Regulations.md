@@ -24,6 +24,11 @@ Various types of vendor-client agreements and contracts
 #laws #regulations #eu
  - GDPR (General Data Protection Regulation) is a regulation that applies to companies that do business in the European Union
 
+### GLBA
+#laws #regulations #united-states
+- Gramm–Leach–Bliley Act (GLBA), also known as the Financial Services Modernization Act of 1999
+- Financial institutions need inform customers of what information is collected about them, how that information is used, where and with whom it’s shared, and how it’s protected
+
 ### SOX
 #laws #regulations
 - Sarbanes–Oxley (SOX)
