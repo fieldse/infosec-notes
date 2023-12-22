@@ -6,6 +6,7 @@ This is mostly for my own study purposes, but hope it's useful for you.
 
 ## Sections
 
+- [Analysis Frameworks](Analysis%20Frameworks.md)
 - [Cryptography](Cryptography.md)
 - [Data Ownership and Roles](Data%20Ownership%20and%20Roles.md)
 - [Forensics](Forensics.md)
@@ -19,7 +20,6 @@ This is mostly for my own study purposes, but hope it's useful for you.
 - [Security Frameworks](Security%20Frameworks.md)
 - [Policies and procedures](Policies%20and%20procedures.md)
 - [SSL](SSL.md)
-- [Threat Analysis Frameworks](Threat%20Analysis%20Frameworks.md)
 - [VPNs](VPNs.md)
 
 
