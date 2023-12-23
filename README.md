@@ -14,6 +14,7 @@ This is mostly for my own study purposes, but hope it's useful for you.
 - [Identity Management](Identity%20management.md)
 - [Port numbers](Port%20numbers.md)
 - [Laws and Regulations](Laws%20and%20Regulations.md)
+- [Multi-factor Authentication](Multi-factor%20Authentication.md)
 - [Organizations](Organizations.md)
 - [OSI Model](OSI%20Model.md)
 - [System services](Services.md)
