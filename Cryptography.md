@@ -4,6 +4,20 @@
 -  [Symmetric](#Symmetric%20algorithms) - equal keys held by both parties, which allow both encrypting and decrypting the information
 - [Asymmetric](#Asymmetric%20algorithms) - keys are split, with a public key being able to encrypt, and a private key being able to decrypt, or vice versa
 - [Unbreakable](#Unbreakable%20Encryption) - truly secure encryption, the holy grail for cryptography
+- [Hashing](#Hashing) - non-reversible functions for checking data integrity
+
+## Hashing
+#hashing #cryptography 
+- non-reversible function
+- generates a unique hash based on content of information. 
+- allows verification that data is intact and hasn't been modified
+
+### Hashing algorithms:
+
+- SHA-1 - 160 bits, fixed output
+- SHA-2 - 256 bits, fixed output
+- MD5 -  128 bits, fixed output
+- NTLM - 128 bits, fixed output - Microsoft's NT LAN Manager
 
 
 ## Symmetric algorithms
@@ -32,6 +46,8 @@ Identical keys held by both parties, which allow both encrypting and decrypting 
 
 ### AES 
 - #symmetric-cryptography
+- BLOCK cipher
+- SYMMETRIC
 -  Advanced Encryption Standard (AES), also known as Rijndael
 - Developed by NIST in 2001
 - block size of 128 bits, key sizes up to 256 bits
@@ -39,9 +55,14 @@ Identical keys held by both parties, which allow both encrypting and decrypting 
 
 ### Blowfish
 - #symmetric-cryptography
--  symmetric block cipher  
+- BLOCK cipher
+- SYMMETRIC
 - block size of 128 bits, key sizes up to 256 bits
 - has become slower than AES
+
+### Twofish
+- todo
+
 
 ### DES
 - #symmetric-cryptography
@@ -51,10 +72,10 @@ Identical keys held by both parties, which allow both encrypting and decrypting 
   
 ### 3DES 
 - #symmetric-cryptography
--  Triple DES (3DES or TDES)
-- officially  "Triple Data Encryption Algorithm"
-- symmetric block cipher
-- outdated - short key length of 56 bits
+- Triple DES (3DES or TDES), officially  "Triple Data Encryption Algorithm"
+- BLOCK cipher
+- SYMMETRIC
+- Outdated/ insecure - short key length of 56 bits
 
 ## Asymmetric algorithms
 Also known as Public-key cryptography.
@@ -71,20 +92,30 @@ Examples:
 
 
 ### Diffie-Hellman
+#asymmetric #encryption 
 - mathematical method of securely exchanging cryptographic keys over a public channel
+- ASYMMETRIC
 
 ### DSA
+#asymmetric #encryption 
 - Digital Signature Algorithm (DSA)
 - a public-key cryptosystem and Federal Information Processing Standard for digital signatures
 - used in SSL
+- ASYMMETRIC
   
 ### DSS
+#asymmetric #encryption 
+
 - Digital Signature Standard (DSS)
 - incorporates the Digital Signature Algorithm
+- ASYMMETRIC
 
 ### Elliptic-curve cryptography
+#asymmetric #encryption 
+
 - Elliptic-curve cryptography (ECC)
-- public-key cryptography based on the algebraic structure of elliptic curves
+- based on algebra of elliptic curves
+- ASYMMETRIC
 - smaller key size than other methods
 - considered [quantum-vulnerable](#Quantum%20safety)
 - Examples: 
@@ -93,7 +124,9 @@ Examples:
 	- Elliptic-curve Diffie–Hellman (ECDH)
 
 ### RSA
+#asymmetric #encryption 
 - RSA (Rivest–Shamir–Adleman) 
+- ASYMMETRIC
 - one of the oldest public-key cryptographic systems, invented in 1977
 - key length generally 1024 to 4096 bits
 - used in OpenSSL
@@ -104,16 +137,6 @@ Examples:
 ### One-time Pad
 - the only known unbreakable encryption method
 - masking messages with pre-known and shared string of random characters & digits, each only used one time
-## Hashing
-#hashing #cryptography 
-- non-reversible function
-- generates a unique hash based on content of information. 
-- allows verification that data is intact and hasn't been modified
-### Hashing algorithms:
-
-- SHA-1
-- SHA-2
-- MD5
 
 ## Quantum safety
 - Algorithms which were originally secure prior may now be vulnerable to breaking with quantum computers
