@@ -29,8 +29,8 @@ Sources:
 
  
 ### 53 - Domain Name System (DNS)
- Port: UDP 53
- Used to associate IP addresses with domain names
+ - Port: UDP 53
+ - Used to associate IP addresses with domain names
 
  
 ### 67/68 - DHCP
@@ -61,7 +61,7 @@ Sources:
  - Network Time Protocol
  - used for synchronizing device time
 
-### 143 / 993 - IMAP
+### 143 - IMAP
 - Internet Message Access Protocol (IMAP)
 - Port: TCP 143, 993 
 - E-mail protocol used by e-mail clients to communicate with e-mail servers. Provides two way communication unlike POP
@@ -86,7 +86,7 @@ Sources:
 - Secure Sockets Layer virtual private network
 - Port: TCP 443 
  
-### 445 -SMB
+### 445 - SMB
 - Server Message Block  /  SAMBA
 - Port: TCP 445
 - used by Windows computers to share files, printers, serial ports, and miscellaneous communications between nodes on a network
@@ -102,7 +102,7 @@ Sources:
 - Port: UDP 514
 
 ### 587 - SMTP
-- SMTP (Secure Mail Transfer Protocolo) with TLS/SSL
+- SMTP (Secure Mail Transfer Protocol) with TLS/SSL
 - Port: TCP 587
 
 ### 636 - LDAPS
@@ -139,11 +139,6 @@ Sources:
  - Port: TCP 1723
  - obsolete & insecure method for implementing virtual private networks
 
-### 3868 - Diameter
-- Port: 3868 
-- an upgrade to RADIUS, using EAP
-- Provides AAA services
-
 ### 1812 - RADIUS with EAP
 - Encrypted version of RADIUS
 - Port: TCP 1813 
@@ -157,6 +152,11 @@ Sources:
 - Remote Desktop Protocol
 - Port: TCP/UDP 3389
 - Microsoft developed, provides a user with a graphical interface to connect to another computer over a network
+
+### 3868 - Diameter
+- Port: 3868 
+- an upgrade to RADIUS, using EAP
+- Provides AAA services
 
 ### 5004 - SRTP
 - Secure Real-time Transport Protocol

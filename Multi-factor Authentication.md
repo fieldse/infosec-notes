@@ -20,11 +20,11 @@ Requiring multiple types of authentication greatly increases security over tradi
 
 ### Biometric
 "something you are"
-- iris scan
+- iris scan - infrared, surface level. quicker than retinal scan & less prone to inaccuracy due to disease 
 - fingerprints
 - voice scan
 - vein scan
-- retina scan
+- retina scan 
 - gait analysis
 
 ### Location
@@ -69,4 +69,5 @@ Requiring multiple types of authentication greatly increases security over tradi
 ### Actions
 "something you can do"
 - perform a puzzle or challenge (like CAPTCHA)
+- match a signature
 

@@ -12,11 +12,11 @@ Different ways of analyzing, categorizing, and theorizing about cyberattacks
 	7. Actions on Objectives
 
 ### MITRE ATT&CK framework
-- Developed by [MITRE](Organizations.md#MITRE), a non-profit organization
-	- Also maintains CVE system and CWE (Common Weakness Enumeration) project
 - Adversarial Tactics, Techniques, and Common Knowledge
 - matrix of tactics and techniques, not an ordered set of steps
 - complementary to Lockheed's cyber kill chain
+- Developed by [MITRE](Organizations.md#MITRE), a non-profit organization
+	- MITRE also maintains CVE system and CWE (Common Weakness Enumeration) project
 
 ### Diamond model of intrusion analysis
 
