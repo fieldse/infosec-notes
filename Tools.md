@@ -23,7 +23,7 @@ General networking tools
 - route
 - curl
 
-Specific / 3rd party tools
+### Specific / 3rd party tools
 - the harvester - Python tool for gathering emails, subdomains, employee names, network details from the public web
 - sn1per - automated network vulnerability scanner
 - scanless - creates an exploitation website for stealthier port scans
@@ -36,16 +36,19 @@ Specific / 3rd party tools
 - PowerShell
 - Python
 - OpenSSL
+
 ### Packet Capture tools
 - tcpdump
 - tcpreplay
 - Wireshark
+
 ### Forensics tools
 - dd - disk imaging
 - FTK Imager - data preview and imaging tool
 - Memdump - dumps system memory to stdout
 - WinHex - hex editor and disk editor
 - Autopsy - digital forensics tool
+
 ### Exploitation tools
 - Metasploit (MSF) - general collection of vulnerability exploits, used for pentesting
 - Browser Exploitation Framework - exploit tool using browser

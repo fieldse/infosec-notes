@@ -3,6 +3,7 @@
 
 -  [Symmetric](#Symmetric%20algorithms) - equal keys held by both parties, which allow both encrypting and decrypting the information
 - [Asymmetric](#Asymmetric%20algorithms) - keys are split, with a public key being able to encrypt, and a private key being able to decrypt, or vice versa
+- [Unbreakable](#Unbreakable%20Encryption) - truly secure encryption, the holy grail for cryptography
 
 
 ## Symmetric algorithms
@@ -18,14 +19,16 @@ Identical keys held by both parties, which allow both encrypting and decrypting 
 ### RC4 
 - #symmetric-cryptography
 -  Rivest Cipher 4
-- stream cypher, high speed
+- **stream cypher**
+- high speed
 - considered insecure
 
 ### PGP 
 - #symmetric-cryptography
 - "Pretty Good Privacy"
-- increases security of email communication 
+- software suite uses primarily for encrypting email communication 
 - used to sign, encrypt, and decrypt texts, emails, files, directories and disk partition
+- uses  [RSA](#RSA) or [DSA](#DSA) algorithms
 
 ### AES 
 - #symmetric-cryptography
@@ -59,9 +62,10 @@ Also known as Public-key cryptography.
 Keys are split into pairs, with a public key being able to encrypt, and a private key being able to decrypt, or vice versa, using one-way mathematical functions
 
 Examples:
-- Diffie–Hellman key exchange protocol
-- DSS (Digital Signature Standard)
-- Elliptic-curve cryptography
+- [Diffie–Hellman](#Diffie–Hellman) key exchange protocol
+- [DSS](#DSS) (Digital Signature Standard)
+- [RSA](#RSA)
+- [Elliptic-curve cryptography](#Elliptic-curve%20cryptography)
 	- Elliptic Curve Digital Signature Algorithm (ECDSA)
 	- Elliptic-curve Diffie–Hellman (ECDH)
 
@@ -80,7 +84,7 @@ Examples:
 
 ### Elliptic-curve cryptography
 - Elliptic-curve cryptography (ECC)
--  public-key cryptography based on the algebraic structure of elliptic curves
+- public-key cryptography based on the algebraic structure of elliptic curves
 - smaller key size than other methods
 - considered [quantum-vulnerable](#Quantum%20safety)
 - Examples: 
@@ -95,14 +99,21 @@ Examples:
 - used in OpenSSL
 - considered [quantum-vulnerable](#Quantum%20safety)
 
+## Unbreakable
+
+### One-time Pad
+- the only known unbreakable encryption method
+- masking messages with pre-known and shared string of random characters & digits, each only used one time
 ## Hashing
 #hashing #cryptography 
 - non-reversible function
 - generates a unique hash based on content of information. 
 - allows verification that data is intact and hasn't been modified
-- hashing algorithms:
-	- SHA256
+### Hashing algorithms:
 
+- SHA-1
+- SHA-2
+- MD5
 
 ## Quantum safety
 - Algorithms which were originally secure prior may now be vulnerable to breaking with quantum computers
