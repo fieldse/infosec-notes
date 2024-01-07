@@ -23,7 +23,7 @@
 ## Symmetric algorithms
 Identical keys held by both parties, which allow both encrypting and decrypting the information
 
-- Twofish
+- [Twofish](#Twofish)
 - [AES](#AES) (Rijndael)
 - [Blowfish](#Blowfish)
 - [RC4](#RC4 )
@@ -33,7 +33,8 @@ Identical keys held by both parties, which allow both encrypting and decrypting 
 ### RC4 
 - #symmetric-cryptography
 -  Rivest Cipher 4
-- **stream cypher**
+- SYMMETRIC
+- **STREAM cypher**
 - high speed
 - considered insecure
 
@@ -46,36 +47,41 @@ Identical keys held by both parties, which allow both encrypting and decrypting 
 
 ### AES 
 - #symmetric-cryptography
+- Advanced Encryption Standard (AES), also known as Rijndael
 - BLOCK cipher
 - SYMMETRIC
--  Advanced Encryption Standard (AES), also known as Rijndael
-- Developed by NIST in 2001
-- block size of 128 bits, key sizes up to 256 bits
-- AES-256 is considered to be [quantum resistant](#Quantum%20safety)
+- block size 128 bits, key sizes up to 256 bits
+- Now the fastest and most secure algorithm
+- considered to be [quantum resistant](#Quantum%20safety) (for AES-256)
 
 ### Blowfish
 - #symmetric-cryptography
 - BLOCK cipher
 - SYMMETRIC
-- block size of 128 bits, key sizes up to 256 bits
-- has become slower than AES
+- block size 128 bits, key sizes up to 256 bits
+- now slower than AES
 
 ### Twofish
-- todo
-
+- BLOCK cipher
+- SYMMETRIC
+- block size 128 bits, key sizes up to 256 bits
 
 ### DES
 - #symmetric-cryptography
 - Data Encryption Standard (DES)
-- outdated - short key length of 56 bits
+- BLOCK cipher
+- SYMMETRIC
+- 56 bits
 - Developed in the 1970s at IBM
+- outdated - short key length
   
 ### 3DES 
 - #symmetric-cryptography
 - Triple DES (3DES or TDES), officially  "Triple Data Encryption Algorithm"
 - BLOCK cipher
 - SYMMETRIC
-- Outdated/ insecure - short key length of 56 bits
+- 56 bits
+- Outdated/insecure - short key length
 
 ## Asymmetric algorithms
 Also known as Public-key cryptography.
